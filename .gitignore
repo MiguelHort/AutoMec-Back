@@ -1,0 +1,26 @@
+node_modules/
+.env
+.DS_Store
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+*.log
+
+# Se estiver usando o PM2
+pm-processes.json
+pm2.log
+pm2.pid
+
+# Se estiver usando o banco de dados localmente
+*.sqlite
+*.sqlite3
+
+# Se estiver usando o VSCode
+.vscode/
+
+# Se estiver usando o macOS
+.DS_Store
+
+# Se estiver usando o Linux
+*~
