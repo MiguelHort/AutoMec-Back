@@ -4,10 +4,10 @@ const { Pool } = pkg;
 // Configuração do banco de dados
 const pool = new Pool({
   user: 'postgres',      // Usuário do PostgreSQL
-  host: 'localhost',        // Host do banco
-  database: 'automec-db',    // Nome do banco de dados
-  password: 'hort1974',    // Senha do usuário
-  port: 5432,               // Porta padrão do PostgreSQL
+  host: 'mainline.proxy.rlwy.net',        // Host do banco
+  database: 'railway',    // Nome do banco de dados
+  password: 'MqSEzAuABChyiOwHCOOTtsmSdplfJUcH',    // Senha do usuário
+  port: 43461,               // Porta padrão do PostgreSQL
 });
 
 // Testar a conexão
